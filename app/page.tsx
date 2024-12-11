@@ -16,9 +16,10 @@ export default function Home() {
         />
         <div className="col-span-6 sm:col-span-3 bg-black p-4 text-white flex items-end">
           <p>
-            Ouvert en décembre 2013 <strong>INK'A TATTOO LYON</strong> est une
-            entreprise familiale. Le shop est situé dans le 1er arrondissement
-            de Lyon tout près de la place des Terreaux. @ INKATATTOOLYON
+            Ouvert en décembre 2013 <strong>INK&apos;A TATTOO LYON</strong> est
+            une entreprise familiale. Le shop est situé dans le 1er
+            arrondissement de Lyon tout près de la place des Terreaux. @
+            INKATATTOOLYON
           </p>
         </div>
       </section>

@@ -51,7 +51,7 @@ export default function Page() {
     >
       <>
         <p>Styles preferes: Neo-Jap</p>
-        <p>Co-fondateur de INK'A TATTOO LYON</p>
+        <p>Co-fondateur de INK&apos;A TATTOO LYON</p>
       </>
     </ArtistProfile>
   );

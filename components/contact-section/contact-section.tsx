@@ -27,7 +27,7 @@ export const ContactSection = () => (
       </div>
 
       <div>
-        <h3 className="heading-3">Horaires d'ouverture</h3>
+        <h3 className="heading-3">Horaires d&apos;ouverture</h3>
         <p>Mardi - Samedi: 10h00 - 18h00</p>{' '}
         <p>Tatouage uniquement sur rdv (nous ne tatouns pas les mineurs)</p>
       </div>
