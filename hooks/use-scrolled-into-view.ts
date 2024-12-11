@@ -1,6 +1,10 @@
-import { useEffect, useState } from 'react';
+import { RefObject, useEffect, useState } from 'react';
 
-export const useScrolledInView = ({ imageRef }: { imageRef: any }) => {
+export const useScrolledInView = ({
+  imageRef,
+}: {
+  imageRef: RefObject<null>;
+}) => {
   const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
