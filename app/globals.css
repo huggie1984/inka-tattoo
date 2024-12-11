@@ -9,13 +9,31 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #171717;
+    --foreground: #ffffff;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .heading-1 {
+    @apply text-2xl font-semibold;
+  }
+  .heading-2 {
+    @apply text-xl font-semibold;
+  }
+  .heading-3 {
+    @apply text-lg font-semibold;
+  }
+  .link-dark {
+    @apply text-indigo-900 hover:text-indigo-800 hover:underline font-medium;
+  }
+  .link-light {
+    @apply text-indigo-200 hover:text-indigo-300 hover:underline font-medium;
+  }
 }
