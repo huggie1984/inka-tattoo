@@ -10,7 +10,13 @@ export const ContactSection = () => (
           <p>69001, LYON</p>
           <p>
             <a href="tel:0981368774" className="link-light flex gap-2">
-              <Image src="/phone.svg" alt="phone" width={18} height={18} />
+              <Image
+                src="/phone.svg"
+                alt="phone"
+                width={18}
+                height={18}
+                className="w-5 h-5"
+              />
               09 81 36 87 74
             </a>
           </p>
@@ -19,7 +25,13 @@ export const ContactSection = () => (
               href="mailto:inkatattoolyon@hotmail.com"
               className="link-light flex gap-2"
             >
-              <Image src="/mail.svg" alt="mail" width={18} height={18} />
+              <Image
+                src="/mail.svg"
+                alt="mail"
+                width={18}
+                height={18}
+                className="w-5 h-5"
+              />
               inkatattoolyon@hotmail.com
             </a>
           </p>

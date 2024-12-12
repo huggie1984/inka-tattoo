@@ -6,7 +6,7 @@ export const TatoueursLink = () => {
   const pathname = usePathname();
   return (
     <Link
-      className="link-dark"
+      className="link-light sm:link-dark"
       href={pathname === '/' ? '#tatoueurs' : '/#tatoueurs'}
     >
       Tatoueurs

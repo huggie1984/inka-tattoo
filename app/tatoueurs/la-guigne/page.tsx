@@ -1,9 +1,9 @@
-// import { ArtistProfile } from '@/components/artist-profile/artist-profile';
+// import { ArtistPage } from '@/components/artist-page/artist-page';
 
 export default function Page() {
   return (
     <div>todo</div>
-    // <ArtistProfile
+    // <ArtistPage
     //   image={{
     //     src: '/tatoueurs/la_guigne.webp',
     //     alt: 'La Guigne profile',
@@ -14,6 +14,6 @@ export default function Page() {
     //   portfolio={[]}
     // >
     //   <p>description</p>
-    // </ArtistProfile>
+    // </ArtistPage>
   );
 }

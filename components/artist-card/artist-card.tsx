@@ -17,7 +17,7 @@ export const ArtistCard = ({
   return (
     <Link
       ref={imageRef}
-      className="col-span-6 sm:col-span-3 lg:col-span-2  flex bg-black overflow-hidden h-[400px] xl:h-[450px]"
+      className="col-span-6 sm:col-span-3 lg:col-span-2 flex bg-black hover:opacity-75 overflow-hidden h-[400px] xl:h-[450px]"
       href={`/tatoueurs/${name.replace(' ', '-').toLowerCase()}`}
     >
       <div className="relative w-1/2 h-full overflow-hidden">
@@ -34,7 +34,7 @@ export const ArtistCard = ({
           />
         </div>
       </div>
-      <div className="flex items-center justify-center w-1/2 p-4">
+      <div className="flex items-center justify-center w-1/2 p-4 h-full">
         <h3 className="heading-3 text-center text-white">{name}</h3>
       </div>
     </Link>

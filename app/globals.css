@@ -31,9 +31,9 @@ body {
     @apply text-lg font-semibold;
   }
   .link-dark {
-    @apply text-indigo-900 hover:text-indigo-800 hover:underline font-medium;
+    @apply text-[#ea7070] hover:text-[#e59572] hover:underline font-medium;
   }
   .link-light {
-    @apply text-indigo-200 hover:text-indigo-300 hover:underline font-medium;
+    @apply text-[#fdc4b6] hover:text-[#e59572] hover:underline font-medium;
   }
 }

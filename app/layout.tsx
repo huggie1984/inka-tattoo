@@ -25,17 +25,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.variable}>
-        <header className="flex flex-col md:flex-row p-4 md:p-6 bg-white text-black">
-          <Link href="/" className="text-xl font-black mb-4 md:mb-0">
-            INK&apos;a TATTOO LYON
+        <header className="flex flex-col sm:flex-row bg-white text-black">
+          <Link
+            href="/"
+            className="text-2xl font-black sm:mb-0 pt-4 pb-2 px-4 sm:p-6"
+          >
+            INK&apos;A TATTOO LYON
           </Link>
-          <nav className="flex gap-4 ml-auto mr-auto md:ml-auto md:mr-0">
+          <nav className="flex justify-center gap-4 mx-auto sm:ml-auto sm:mr-0 w-full sm:w-auto pt-2 pb-4 px-4 sm:p-6 bg-black sm:bg-white">
             <TatoueursLink />
             <ContactLink />
-            <Link className="link-dark" href="/shop">
+            <Link className="link-light sm:link-dark" href="/shop">
               Shop
             </Link>
-            <Link className="link-dark" href="/news">
+            <Link className="link-light sm:link-dark" href="/news">
               News
             </Link>
           </nav>

@@ -1,8 +1,8 @@
-import { ArtistProfile } from '@/components/artist-profile/artist-profile';
+import { ArtistPage } from '@/components/artist-page/artist-page';
 
 export default function Page() {
   return (
-    <ArtistProfile
+    <ArtistPage
       image={{
         src: '/tatoueurs/tuan_nguyen/profile.webp',
         alt: 'Tuan Nguyen profile',
@@ -53,6 +53,6 @@ export default function Page() {
         <p>Styles preferes: Neo-Jap</p>
         <p>Co-fondateur de INK&apos;A TATTOO LYON</p>
       </>
-    </ArtistProfile>
+    </ArtistPage>
   );
 }

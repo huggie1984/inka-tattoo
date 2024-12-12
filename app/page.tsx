@@ -6,14 +6,17 @@ export default function Home() {
   return (
     <main className="container flex flex-col items-center gap-4 md:mt-4 mb-4">
       <section className="grid grid-cols-6">
-        <Image
-          src="/home.webp"
-          alt="inside shop"
-          width={640}
-          height={625}
-          loading="eager"
-          className="col-span-6 sm:col-span-3 w-full h-[300px] object-cover"
-        />
+        <div className="col-span-6 sm:col-span-3 relative w-full h-[300px]">
+          <Image
+            src="/home.webp"
+            alt="inside shop"
+            fill
+            loading="eager"
+            priority
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, 50vw"
+          />
+        </div>
         <div className="col-span-6 sm:col-span-3 bg-black p-4 text-white flex items-end">
           <p>
             Ouvert en décembre 2013 <strong>INK&apos;A TATTOO LYON</strong> est

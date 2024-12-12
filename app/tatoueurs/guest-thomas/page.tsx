@@ -1,9 +1,9 @@
-// import { ArtistProfile } from '@/components/artist-profile/artist-profile';
+// import { ArtistPage } from '@/components/artist-page/artist-page';
 
 export default function Page() {
   return (
     <div>Todo</div>
-    // <ArtistProfile
+    // <ArtistPage
     //   image={{
     //     src: '/tatoueurs/guest_thomas/guest_thomas.webp',
     //     alt: 'Guest Thomas',
@@ -14,6 +14,6 @@ export default function Page() {
     //   portfolio={[]}
     // >
     //   <p>description</p>
-    // </ArtistProfile>
+    // </ArtistPage>
   );
 }

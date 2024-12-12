@@ -6,7 +6,7 @@ export const ContactLink = () => {
   const pathname = usePathname();
   return (
     <Link
-      className="link-dark"
+      className="link-light sm:link-dark"
       href={pathname === '/' ? '#contact' : '/#contact'}
     >
       Contact
