@@ -11,7 +11,6 @@ export default function Home() {
             src="/home.webp"
             alt="inside shop"
             fill
-            loading="eager"
             priority
             className="object-cover"
             sizes="(max-width: 640px) 100vw, 50vw"
@@ -26,10 +25,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section
-        className="grid grid-cols-6 gap-1 w-full container"
-        id="tatoueurs"
-      >
+      <section className="grid grid-cols-6 gap-1 w-full container">
         <ArtistCard
           name="TUAN NGUYEN"
           image={{
@@ -60,7 +56,6 @@ export default function Home() {
           image={{ src: '/tatoueurs/uggy/uggy.webp', alt: 'Uggy profile' }}
         />
       </section>
-      <ContactSection />
     </main>
   );
 }

@@ -31,9 +31,16 @@ body {
     @apply text-lg font-semibold;
   }
   .link-dark {
-    @apply text-[#ea7070] hover:text-[#e59572] hover:underline font-medium;
+    @apply text-cyan-900 hover:text-cyan-800 hover:underline font-medium;
   }
   .link-light {
-    @apply text-[#fdc4b6] hover:text-[#e59572] hover:underline font-medium;
+    @apply text-cyan-50 hover:text-cyan-100 hover:underline font-medium;
+  }
+
+  .button-dark {
+    @apply px-4 py-2 bg-cyan-900 text-white hover:bg-cyan-800 font-medium;
+  }
+  .button-light {
+    @apply px-4 py-2 bg-cyan-50 text-black hover:bg-cyan-100 font-medium;
   }
 }

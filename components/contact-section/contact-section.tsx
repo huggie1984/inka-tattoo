@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const ContactSection = () => (
   <section id="contact" className="container grid grid-cols-6 gap-1 w-full">
-    <div className="col-span-6 md:col-span-3 lg:col-span-2 flex flex-col gap-4 justify-center px-4 md:px-0">
+    <div className="col-span-6 md:col-span-3 lg:col-span-2 flex flex-col gap-4 justify-center px-4 xl:px-0">
       <div>
         <h3 className="heading-3">Adresse</h3>
         <address>
