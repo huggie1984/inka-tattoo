@@ -12,12 +12,12 @@ export default function Page() {
           Dès votre arrivée, il vous sera demandé de vous laver les mains à
           l’eau et au savon suivit d’un lavage au gel hydroalcoolique. Les
           produits ainsi qu’une fiche explicative seront à votre disposition à
-          l’entrée de la boutique.{' '}
+          l’entrée de la boutique.
         </p>
         <p>
-          Aucun accompagnant ne sera autorisé dans l'espace de tatouage. Nous
-          vous demanderons également de respecter les gestes barrières afin de
-          ne pas mettre en danger les autres clients et les tatoueurs.
+          Aucun accompagnant ne sera autorisé dans l&apos;espace de tatouage.
+          Nous vous demanderons également de respecter les gestes barrières afin
+          de ne pas mettre en danger les autres clients et les tatoueurs.
         </p>
       </section>
       <section className="container bg-black p-4 flex flex-col gap-2">
@@ -81,7 +81,7 @@ export default function Page() {
             </p>
           </li>
         </ul>
-        <h3 className="heading-3">Sur le long terme :</h3>{' '}
+        <h3 className="heading-3">Sur le long terme :</h3>
         <p>
           Ce n’est pas parce que votre tatouage a cicatrisé que vous ne devez
           plus en prendre soin. Pour conserver l’éclat et la beauté de vos
@@ -96,15 +96,15 @@ export default function Page() {
         <p>
           Avant de commencer à appliquer le film assurez-vous de vous laver les
           mains et mettre des gants chirurgicaux propres. Mesurer le tatouage et
-          couper des morceaux du rouleau dans les tailles que vous êtes à l'aise
-          de travailler avec.
+          couper des morceaux du rouleau dans les tailles que vous êtes à
+          l&apos;aise de travailler avec.
         </p>
         <p>
           Commencez par nettoyer et sécher le tatouage et la peau environnante.
           Le premier morceau de film de protection Tattoo film peut être laissé
-          sur la peau jusqu'à max 24 heures, l'heure exacte dépendra de la
-          quantité de liquides que la plaie exhale; cela varie d'une personne à
-          l'autre.
+          sur la peau jusqu&apos;à max 24 heures, l&apos;heure exacte dépendra
+          de la quantité de liquides que la plaie exhale; cela varie d&apos;une
+          personne à l&apos;autre.
         </p>
         <p>
           En cas de saignement excessif, le film peut être remplacé par un autre
@@ -117,18 +117,18 @@ export default function Page() {
         </p>
         <p>
           Lorsque vous retirez le film assurez-vous de laver soigneusement la
-          zone avec de l'eau et du savon, et doucement sécher le tatouage. Une
-          fois que la peau est complètement sec, vous pouvez appliquer le
-          deuxième morceau de film.{' '}
+          zone avec de l&apos;eau et du savon, et doucement sécher le tatouage.
+          Une fois que la peau est complètement sec, vous pouvez appliquer le
+          deuxième morceau de film.
         </p>
         <p>
           Cette nouvelle application peut être maintenu pendant encore 48
-          heures, jusqu'à 5 jours, le changer quand vous le jugez nécessaire.
-          L'utilisation totale suggéré de film, couvrant toutes les
-          applications, est entre trois et six jours. N.B. si le film est
-          difficile à enlever la peau, laissez simplement un peu d'eau chaude
-          couler sous le film de tatouage, de sorte que la colle devient plus
-          tendre et le retrait du film est plus facile.
+          heures, jusqu&apos;à 5 jours, le changer quand vous le jugez
+          nécessaire. L&apos;utilisation totale suggéré de film, couvrant toutes
+          les applications, est entre trois et six jours. N.B. si le film est
+          difficile à enlever la peau, laissez simplement un peu d&apos;eau
+          chaude couler sous le film de tatouage, de sorte que la colle devient
+          plus tendre et le retrait du film est plus facile.
         </p>
         <p>
           Vous devrez ensuite continuer les soins avec votre pommade #crème deux

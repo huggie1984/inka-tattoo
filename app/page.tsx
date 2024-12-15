@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { ArtistCard } from '@/components/artist-card/artist-card';
-import { ContactSection } from '@/components/contact-section/contact-section';
 
 export default function Home() {
   return (

@@ -1,4 +1,3 @@
-import { ContactSection } from '@/components/contact-section/contact-section';
 import Image from 'next/image';
 
 export default function Page() {
